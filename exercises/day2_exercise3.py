@@ -8,10 +8,8 @@ def exerthree(romaninput='XIV'):
 	for l in romaninput:
 		if decvals[romans.index(l)] < decvals[romans.index(romaninput[min(romaninput.index(l)+1,len(romaninput)-1)])]:
 			dec += decvals[romans.index(l)].__neg__() 
-			print '< ' + str(decvals[min(romans.index(l)+1,len(romans)-1)])
 		else:
 			dec += decvals[romans.index(l)]
-			print 'not <'
 
 	print 'dec = ' + str(dec)
 
