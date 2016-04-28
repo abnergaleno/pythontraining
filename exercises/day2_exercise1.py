@@ -10,6 +10,6 @@ def exerone(lwh=3):
 		for c_idx, c in enumerate(b):
 			# line += str(c)
 			print threedimarr[a_idx][b_idx][c_idx],
-	print '\n'	
+	print '\n'
 
 exerone(3)
